@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_tabs"
+        style="@style/menu_button"
+        android:text="@string/tabs" />
+
+    <Button
+        android:id="@+id/button_drawer"
+        style="@style/menu_button"
+        android:text="@string/drawer" />
+
+    <Button
+        android:id="@+id/button_bottom_nav"
+        style="@style/menu_button"
+        android:text="@string/bottom_nav" />
+</LinearLayout>

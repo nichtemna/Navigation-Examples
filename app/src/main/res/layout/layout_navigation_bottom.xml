@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <com.nichtemna.navagationexample.bottom_ios_style.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.nichtemna.navagationexample.bottom_ios_style.NavigationButton
+            android:id="@+id/navigation_button_home"
+            style="@style/nav_bottom_button"
+            app:image="@drawable/ic_star_white"
+            app:text="@string/first" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark" />
+
+        <com.nichtemna.navagationexample.bottom_ios_style.NavigationButton
+            android:id="@+id/navigation_button_about"
+            style="@style/nav_bottom_button"
+            app:image="@drawable/ic_star_white"
+            app:text="@string/second" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark" />
+
+        <com.nichtemna.navagationexample.bottom_ios_style.NavigationButton
+            android:id="@+id/navigation_button_faqs"
+            style="@style/nav_bottom_button"
+            app:image="@drawable/ic_star_white"
+            app:text="@string/third" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark" />
+
+        <com.nichtemna.navagationexample.bottom_ios_style.NavigationButton
+            android:id="@+id/navigation_button_contact"
+            style="@style/nav_bottom_button"
+            app:image="@drawable/ic_star_white"
+            app:text="@string/forth" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark" />
+
+        <com.nichtemna.navagationexample.bottom_ios_style.NavigationButton
+            android:id="@+id/navigation_button_logout"
+            style="@style/nav_bottom_button"
+            app:image="@drawable/ic_star_white"
+            app:text="@string/fifth" />
+
+    </com.nichtemna.navagationexample.bottom_ios_style.NavigationView>
+
+</LinearLayout>

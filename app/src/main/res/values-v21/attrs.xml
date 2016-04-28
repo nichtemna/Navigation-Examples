@@ -1,0 +1,24 @@
+<resources>
+    <declare-styleable name="NavigationButton">
+        <attr name="image" format="reference"/>
+        <attr name="text" format="reference"/>
+        <attr name="bg_checked" format="reference"/>
+        <attr name="bg_unchecked" format="reference"/>
+        <attr name="text_color_unchecked" format="color"/>
+        <attr name="text_color_checked" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="InboxButton">
+        <attr name="inbox_image" format="reference"/>
+        <attr name="inbox_text" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="MenuButton">
+        <attr name="menu_image" format="reference"/>
+        <attr name="menu_text" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="Switch">
+        <attr name="switch_checked" format="boolean"/>
+    </declare-styleable>
+</resources>
